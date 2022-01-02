@@ -1,10 +1,9 @@
-@Goals
+@Checkout
 Feature: Checkout Product
   As a user
   I want to checkout a product
   So that I am success checkout product
 
-  @Checkout
   Scenario: User want to checkout product by COD
     Given I am logged as user
     When I am click icon cart
@@ -13,4 +12,4 @@ Feature: Checkout Product
     And I am choose methode payment COD
     And I click button Bayar
     Then I am success payment checkout product
-    And show success message "Pembayaran Cash On Deleivery"
+    And show success message "Pembayaran Cash On Delivery"

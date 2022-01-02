@@ -4,6 +4,7 @@ import starter.Booking.CreateBooking;
 import starter.Pages.LoginPage;
 import starter.Pages.LogoutPage;
 import starter.Pages.RegistrationPage;
+import starter.Payment.Checkout;
 import starter.Product.CreateProduct;
 import starter.Product.DeleteProduct;
 
@@ -14,4 +15,5 @@ public class BaseTest {
     public CreateProduct product = new CreateProduct();
     public DeleteProduct deleteProduct = new DeleteProduct();
     public CreateBooking booking = new CreateBooking();
+    public Checkout checkout = new Checkout();
 }
