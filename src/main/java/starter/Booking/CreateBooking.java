@@ -16,7 +16,7 @@ public class CreateBooking extends PageObject {
     public void choosePeralatan(){
         ChoosePeralatan.click();
     }
-    @FindBy(id = "2")
+    @FindBy(id = "3")
     WebElement ImageProduct;
     public void ImageProduct(){
         ImageProduct.click();
